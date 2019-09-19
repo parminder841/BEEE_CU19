@@ -1,0 +1,12 @@
+//Code for flashing of one LED using delay function on digital pin number 13.
+
+void setup() {
+    pinMode(13,OUTPUT);
+}
+
+void loop() {
+  digitalWrite(13,HIGH);      //LED on
+  delay(250);                 //delay for 0.25 seconds
+  digitalWrite(13,LOW);       //LED off
+  delay(250);                 //delay for 0.25 seconds
+}
